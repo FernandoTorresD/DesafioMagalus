@@ -1,0 +1,20 @@
+meta {
+  name: Schedule notification
+  type: http
+  seq: 2
+}
+
+get {
+  url: http://localhost:8080/Notification
+  body: none
+  auth: inherit
+}
+
+tests {
+  {
+      "dateTime"; "2025-05-12T12:00:00",
+      "destination; "brunoemail.com",
+      "message"; "Olá, Bruno!",
+      "channel"; "EMAIL"
+    }
+}

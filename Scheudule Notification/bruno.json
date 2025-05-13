@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Scheudule Notification",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
